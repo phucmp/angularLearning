@@ -2,3 +2,4 @@
 <ul>
     <li *ngFor="let author of authors;">{{ author }}</li>
 </ul>
+<i (click)="onClick()" class="btn fa fa-5x" [ngClass]="{ 'fa-star': isClicked, 'fa-star-o': !isClicked } "></i>

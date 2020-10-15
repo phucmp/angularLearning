@@ -6,14 +6,18 @@ import { AuthorService } from '../author.service';
   templateUrl: './author.component.html',
   styleUrls: ['./author.component.css']
 })
-export class AuthorComponent implements OnInit {
+export class AuthorComponent implements OnInit{
   authors;
+  isClicked: boolean;
 
   constructor(service: AuthorService) {
     this.authors = service.getAuthors();
   }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  onClick() {
+    this.isClicked = !this.isClicked;
   }
 
 }
