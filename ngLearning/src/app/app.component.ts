@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngLearning';
+  tweet = {
+    body: 'Here is the body of a tweet...',
+    isLiked: false,
+    likesCount: 10
+  }
 }

@@ -1,0 +1,12 @@
+.fa-heart{
+    cursor: pointer;
+    color: #ccc;
+}
+
+.liked {
+    color: deeppink;
+}
+
+.counter {
+    margin-left: 5px;
+}

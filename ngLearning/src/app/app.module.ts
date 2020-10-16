@@ -8,13 +8,15 @@ import { AuthorComponent } from './author/author.component';
 import { AuthorService } from './author.service';
 import { TextBoxComponent } from './text-box/text-box.component';
 import { TitlePipe } from './title.pipe';
+import { LikeComponent } from './like/like.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthorComponent,
     TextBoxComponent,
-    TitlePipe
+    TitlePipe,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
